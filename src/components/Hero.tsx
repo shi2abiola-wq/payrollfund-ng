@@ -1,12 +1,10 @@
-import React from "react";
-
-const Hero = () => {
+function Hero() {
   return (
-    <section style={{ padding: "50px", textAlign: "center", background: "#f0f4f8" }}>
-      <h1>PayrollFund NG</h1>
-      <p>Empowering employees with instant salary-based loans.</p>
+    <section className="hero">
+      <h1>Welcome to PayrollFund NG</h1>
+      <p>Smart payroll management and employee benefits made simple.</p>
     </section>
   );
-};
+}
 
 export default Hero;
