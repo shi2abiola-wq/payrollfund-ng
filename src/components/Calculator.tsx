@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 
 const Calculator = () => {
   const [salary, setSalary] = useState<number>(0);
